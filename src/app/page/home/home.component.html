@@ -1,0 +1,18 @@
+
+<button routerLink="/form"> Novo </button>
+<table>
+    <thead>
+       <th>id</th>
+       <th>nome</th>
+       <th>email</th>
+       <th>idade</th>
+    </thead>
+<tbody>
+    <tr *ngFor="let pessoa of pessoas">
+        <td>{{pessoa.id}}</td>
+        <td>{{pessoa.nome}}</td>
+        <td>{{pessoa.email}}</td>
+        <td>{{pessoa.idade}}</td>
+    </tr>
+</tbody>
+</table>
